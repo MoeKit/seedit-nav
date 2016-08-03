@@ -98,7 +98,7 @@
     <a href="<?=RIJI_SEEDIT_COM?>/" class="g-nav-username" title="<%=username%>" data-track="顶部导航/用户名">
         <%=username.substr(0,10)%>
     </a>
-
+    <a href="javascript:void(0)" class="g-nav-username-edit" style="display: none"></a>
 
     <div class="nav-user-items">
         <div class="g_hd_info">
