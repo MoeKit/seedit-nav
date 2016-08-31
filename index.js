@@ -5,6 +5,7 @@ var replace = function(html){
 	.replace(/<\?=BBS_SEEDIT_COM\?>/g,'http://bbs.bozhong.com')
 	.replace(/<\?=I_SEEDIT_COM\?>/g,'http://i.bozhong.com')
 	.replace(/<\?=HUODONG_SEEDIT_COM\?>/g,'http://huodong.bozhong.com')
+	.replace(/<\?=WWW_SEEDIT_COM\?>/g,'http://www.bozhong.com')
 };
 exports.tpl = replace(require('./nav.tpl'));
 
