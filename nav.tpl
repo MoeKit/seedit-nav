@@ -1,6 +1,6 @@
 <div class="nav-user-avatar">
     <div class="g_hd_info" data-title="用户信息下拉">
-        <img src="<%=avatar%>" width="40" height="40" class="g-nav-avatar nav-avatar" onerror="this.src='<?=UC_SEEDIT_COM?>/images/noavatar_small.gif'">
+        <img src="<%=avatar%>" width="40" height="40" class="g-nav-avatar nav-avatar" onerror="this.src='<?=UC_SEEDIT_COM?>/images/noavatar_small.gif';this.onerror=null;">
 
         <div class="g_sub g_user" style="top:48px;">
             <span class="angle" style="left:131px;"></span>
@@ -9,7 +9,7 @@
                 <span class="g_userPic">
                     <a href="<?=RIJI_SEEDIT_COM?>/home.php?mod=space&uid=<%=uid%>" data-track="顶部导航/点击头像">
                                             <img src="<%=avatar%>" alt=""
-                                                 onerror="this.src='<?=UC_SEEDIT_COM?>/images/noavatar_small.gif'"/>
+                                                 onerror="this.src='<?=UC_SEEDIT_COM?>/images/noavatar_small.gif';this.onerror=null;"/>
                                         </a>
                     <a href="<?=RIJI_SEEDIT_COM?>/home.php?mod=spacecp&ac=avatar" class="pic_txt" data-track="顶部导航/点击更换头像" target="_blank">更换头像</a>
                 </span>
